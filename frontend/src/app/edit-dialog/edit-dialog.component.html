@@ -1,0 +1,11 @@
+<h1 mat-dialog-title>Mofification Test</h1>
+<div mat-dialog-content>
+  <mat-form-field appearance="fill">
+    <mat-label>Nouveau Nom Du Test</mat-label>
+    <input matInput [(ngModel)]="text">
+  </mat-form-field>
+</div>
+<div mat-dialog-actions style="display: flex; flex-direction: row; justify-content: center;">
+  <button mat-button (click)="onNoClick()" cdkFocusInitial>Annuler</button>
+  <button mat-button (click)="onClick()" >OK</button>
+</div>

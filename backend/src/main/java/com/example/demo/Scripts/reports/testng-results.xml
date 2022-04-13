@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-05T01:22:58 WAT" name="My Test Suite" finished-at="2022-02-05T01:23:34 WAT" duration-ms="36361">
+    <groups>
+    </groups>
+    <test started-at="2022-02-05T01:22:58 WAT" name="My Test" finished-at="2022-02-05T01:23:34 WAT" duration-ms="36361">
+      <class name="com.example.demo.Scripts.Test_Ajout">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.example.demo.Scripts.Test_Ajout@e349cc7]" started-at="2022-02-05T01:22:58 WAT" name="beforeTest" finished-at="2022-02-05T01:22:58 WAT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="test()[pri:0, instance:com.example.demo.Scripts.Test_Ajout@e349cc7]" started-at="2022-02-05T01:22:58 WAT" name="test" finished-at="2022-02-05T01:23:30 WAT" duration-ms="31855" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="test_another()[pri:0, instance:com.example.demo.Scripts.Test_Ajout@e349cc7]" started-at="2022-02-05T01:23:30 WAT" name="test_another" finished-at="2022-02-05T01:23:30 WAT" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_another -->
+        <test-method signature="test_three()[pri:0, instance:com.example.demo.Scripts.Test_Ajout@e349cc7]" started-at="2022-02-05T01:23:30 WAT" name="test_three" finished-at="2022-02-05T01:23:30 WAT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_three -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.example.demo.Scripts.Test_Ajout@e349cc7]" started-at="2022-02-05T01:23:30 WAT" name="afterTest" finished-at="2022-02-05T01:23:34 WAT" duration-ms="4483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.example.demo.Scripts.Test_Ajout -->
+    </test> <!-- My Test -->
+  </suite> <!-- My Test Suite -->
+</testng-results>

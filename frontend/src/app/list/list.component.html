@@ -1,0 +1,21 @@
+<div class="list-conatainer" style="border-style: ridge;">
+    <h2>Liste Des Tests</h2>
+    <div  class="Heading" style="text-align: center;">
+
+        <button mat-icon-button (click)="openDialog()">
+            <mat-icon>add</mat-icon>
+        </button>
+        <button mat-icon-button *ngIf="isSelected" (click)="openEditDialog()">
+            <mat-icon>edit</mat-icon>
+        </button>
+        <button mat-icon-button *ngIf="isSelected" (click)="openDeleteDialog()">
+            <mat-icon>delete</mat-icon>
+        </button>
+
+    </div>
+    <mat-selection-list #shoes [multiple]="false">
+        <mat-list-option  *ngFor="let shoe of testList" (click)="onSelect(shoe)" [value]="shoe">
+        {{shoe.title | uppercase}}
+        </mat-list-option>
+    </mat-selection-list>
+</div>

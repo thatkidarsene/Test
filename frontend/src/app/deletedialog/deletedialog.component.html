@@ -1,0 +1,10 @@
+<h1 mat-dialog-title>Suppression Test</h1>
+<div mat-dialog-content>
+
+    <mat-label>Voulez-vous vraiment supprimer ce test?</mat-label>
+
+</div>
+<div mat-dialog-actions style="display: flex; flex-direction: row; justify-content: center;">
+  <button mat-button (click)="onNoClick()" cdkFocusInitial>Non</button>
+  <button mat-button (click)="onClick()" >Oui</button>
+</div>

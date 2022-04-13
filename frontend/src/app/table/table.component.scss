@@ -1,0 +1,66 @@
+@import url("../../scss/indigo-pink.css");
+table {
+  width: 1300px;
+}
+h2{
+  font-family: cursive;
+}
+.example-container {
+  margin-bottom: 2.5%;
+  width: 1300px;
+  height: 200px;
+  max-width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.mat-header-row{
+  background-color: rgb(241.25,241.25, 241.25);
+}
+.mat-row{
+  background-color: rgb(241.25,241.25, 241.25);
+  border-color: aqua;
+  border-style: unset;
+}
+.mat-row:hover {
+  background-color:white;
+}
+.mat-cell {
+  text-align: center;
+  border-right: 1px solid white;
+}
+.mat-header-cell {
+  text-align: center;
+  border-right: 1px solid white;
+  text-shadow:2px 2px 8px white;
+  font-size:medium;
+  font-weight: bolder;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+@import url("../../scss/material-design-icons.css");
+.cb{
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-style:outset;
+  border-color: rgb(247.5, 247.5 , 247.5);
+  border-radius: 500px;
+  margin-bottom: 15px;
+}
+
+div h3{
+  font-family: cursive;
+}
+
+
+.button.play {
+  border-style: solid;
+  box-sizing: border-box;
+  width: 20px;
+  height: 20px;
+  border-width: 20px 0px 20px 20px;
+  border-color: transparent transparent transparent #202020;
+
+
+}

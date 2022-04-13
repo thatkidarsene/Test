@@ -1,0 +1,9 @@
+//Local
+spring.data.mongodb.host=localhost
+spring.data.mongodb.port=27017
+spring.data.mongodb.database=myDB
+
+
+//Remote
+server.port=8080
+spring.data.mongodb.uri=mongodb+srv://arsene:arsyyace@cluster0.6jzlu.mongodb.net/myDB?retryWrites=true&w=majority

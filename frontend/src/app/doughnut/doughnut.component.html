@@ -1,0 +1,9 @@
+<div  class="doughnut">
+  <h3 style="text-align:center">Statistiques Des Tests</h3>
+  <canvas id="myChartId" *ngIf="getBool()" baseChart style="display: block"
+              [data]="myData"
+              [type]="myType"
+              (chartHover)="chartHovered($event)"
+              (chartClick)="chartClicked($event)"></canvas>
+</div>
+
